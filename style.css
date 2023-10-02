@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 300px;
+    height: 439px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+section.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.one p{
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    color: #120B48;
+}
+section.one div.one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+section.one div.two {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+section.two p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    width: 225px;
+    color: #413C6D;
+    
+}
+section.three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.three div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+section.four{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+section.four .permission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+section.four .permission .name{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+section.four div.toggle_btn_bg{
+    background: #120B48;
+    display: flex;
+    justify-content: flex-end;
+    width: 36px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 12px;
+}
+section.five button{
+    background: #120B48;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+button#stop_video{
+    display: none;
+}
